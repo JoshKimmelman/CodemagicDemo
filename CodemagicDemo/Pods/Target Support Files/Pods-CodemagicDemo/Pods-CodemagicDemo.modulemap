@@ -1,0 +1,6 @@
+framework module Pods_CodemagicDemo {
+  umbrella header "Pods-CodemagicDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
