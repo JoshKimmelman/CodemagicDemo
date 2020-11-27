@@ -12,7 +12,6 @@ workflows:
                 --workspace CodemagicDemo.xcworkspace \
                 --scheme CodemagicDemo \
                 --device "iPhone 11"
-                    test_report: build/ios/test/*.xml
             - xcodebuild build -workspace "$XCODE_WORKSPACE.xcworkspace" -scheme "$XCODE_SCHEME" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO
         artifacts:
             - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
