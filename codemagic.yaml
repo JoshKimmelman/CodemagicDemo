@@ -9,8 +9,7 @@ workflows:
             cocoapods: default
         scripts:
             name: Run the tests
-            script: |
-                xcode-project run-tests --workspace CodemagicDemo.xcworkspace  --scheme CodemagicDemo --device "iPhone 11"
+            script: xcode-project run-tests --workspace CodemagicDemo.xcworkspace  --scheme CodemagicDemo --device "iPhone 11"
             name: Make an unsigned build
             script: xcodebuild build -workspace "$XCODE_WORKSPACE.xcworkspace" -scheme "$XCODE_SCHEME" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO
         artifacts:
