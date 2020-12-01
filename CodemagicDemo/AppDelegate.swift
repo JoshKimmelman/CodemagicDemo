@@ -21,6 +21,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
           Crashes.self
         ])
         
+        print("AppCenter test commit")
+        
         return true
     }
 
