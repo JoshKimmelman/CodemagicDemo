@@ -11,7 +11,6 @@ workflows:
             - xcode-project run-tests --workspace CodemagicDemo.xcworkspace  --scheme CodemagicDemo --device "iPhone 11"
             - xcodebuild build -workspace "$XCODE_WORKSPACE.xcworkspace" -scheme "$XCODE_SCHEME" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO
         triggering:
-            events:
                 - push
                 - pull_request
                 - tag
@@ -19,7 +18,3 @@ workflows:
             - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
             - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
             
-            
-           
-    
-        
