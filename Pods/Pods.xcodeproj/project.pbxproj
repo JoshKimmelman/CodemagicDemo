@@ -6,19 +6,38 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		A3282A5B2437E609EEB85861D7ECE717 /* AppCenter */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D0944D0DEFF9CDF0CBE6D4A41B195020 /* Build configuration list for PBXAggregateTarget "AppCenter" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = AppCenter;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		26EEDB1AEBCDE934FDD3D28149109655 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		2C233C4B1FE05D40A6874C7623BA03EC /* Pods-CodemagicDemo-CodemagicDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A54CB60250EC7644BC822D421C59CAB2 /* Pods-CodemagicDemo-CodemagicDemoUITests-dummy.m */; };
 		5DDFA322152775DDCFE6B92B992A2FCD /* Pods-CodemagicDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 442C81368954ED3E9357EB2AE0C475D9 /* Pods-CodemagicDemoTests-dummy.m */; };
-		8D26EC32FB2E8E140109503E560DF988 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		9167E04BD99FA7A413B61EDB79BE3F52 /* Pods-CodemagicDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AD6602ACC4E9E88D24684ADABA9ADBE /* Pods-CodemagicDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D6FFC9A8A0A012D7773BFEB35BB9901B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		E42407A8A9A0661DC46E160F4B75EE9C /* Pods-CodemagicDemo-CodemagicDemoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BDDFF2936889AF51C25FFD8F2732915F /* Pods-CodemagicDemo-CodemagicDemoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8367037E3A89B4577A37856BB19FB6B /* Pods-CodemagicDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AD6602ACC4E9E88D24684ADABA9ADBE /* Pods-CodemagicDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7E179DDA2916068E402C40219D3623B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		DC2ECE47B4CA418E050D22BB2A164D71 /* Pods-CodemagicDemo-CodemagicDemoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BDDFF2936889AF51C25FFD8F2732915F /* Pods-CodemagicDemo-CodemagicDemoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2E2A7514419C5B631959A6FA5A11E3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		E5B3CB9466EDDFFAA5EC2AF811930D03 /* Pods-CodemagicDemoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD7B2634EBCBF626F500505119353A6 /* Pods-CodemagicDemoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FBD00D11C820F022F2972EA1DD123890 /* Pods-CodemagicDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 440B15852FD4721D6EF8CE70A10914C0 /* Pods-CodemagicDemo-dummy.m */; };
+		EC568DA404190FBE804F88F5ACD01DBC /* Pods-CodemagicDemo-CodemagicDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A54CB60250EC7644BC822D421C59CAB2 /* Pods-CodemagicDemo-CodemagicDemoUITests-dummy.m */; };
+		FE3614A685760743211F30354A7C1000 /* Pods-CodemagicDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 440B15852FD4721D6EF8CE70A10914C0 /* Pods-CodemagicDemo-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		7E531BF33AF5730FC355AF7C7CF570AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3282A5B2437E609EEB85861D7ECE717;
+			remoteInfo = AppCenter;
+		};
 		D4A30CD4C669A353A34D8F8CF428D5DA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -26,11 +45,19 @@
 			remoteGlobalIDString = 6FA7F7200BAC8527D217E05C60DEA394;
 			remoteInfo = "Pods-CodemagicDemo";
 		};
+		E6BE651992F125C351FE35AF791BF9CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3282A5B2437E609EEB85861D7ECE717;
+			remoteInfo = AppCenter;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		054EB223C1ED269EDA1D443C7EFC6D2F /* Pods-CodemagicDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CodemagicDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0B1A741240285113FF2BAEE2B9887959 /* Pods-CodemagicDemo-CodemagicDemoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CodemagicDemo-CodemagicDemoUITests.modulemap"; sourceTree = "<group>"; };
+		0FEE3158F605D495B08188F7525FD262 /* AppCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenter.framework; path = "AppCenter-SDK-Apple/iOS/AppCenter.framework"; sourceTree = "<group>"; };
 		18329D36F8C5F1B22DAADE1964F49104 /* Pods-CodemagicDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CodemagicDemo.release.xcconfig"; sourceTree = "<group>"; };
 		1DEA9C875A676EAEE2F2C3CB137FA377 /* Pods-CodemagicDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CodemagicDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		281F0E7EB68EC6FB33B9F15201A169C0 /* Pods-CodemagicDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CodemagicDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -53,27 +80,30 @@
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A54CB60250EC7644BC822D421C59CAB2 /* Pods-CodemagicDemo-CodemagicDemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CodemagicDemo-CodemagicDemoUITests-dummy.m"; sourceTree = "<group>"; };
 		AAD7B2634EBCBF626F500505119353A6 /* Pods-CodemagicDemoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CodemagicDemoTests-umbrella.h"; sourceTree = "<group>"; };
+		AC7CD1C412745CB23A2ED0C2A6D486EF /* AppCenterAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterAnalytics.framework; path = "AppCenter-SDK-Apple/iOS/AppCenterAnalytics.framework"; sourceTree = "<group>"; };
+		AE146D4DBF4FCFD24A5C97DDB506616D /* AppCenter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppCenter.xcconfig; sourceTree = "<group>"; };
 		BDDFF2936889AF51C25FFD8F2732915F /* Pods-CodemagicDemo-CodemagicDemoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CodemagicDemo-CodemagicDemoUITests-umbrella.h"; sourceTree = "<group>"; };
 		C6DF402D1EAF1B48DE90EBC6D34EB359 /* Pods-CodemagicDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CodemagicDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CBF60A12C502CCD6CAA82C5108C7C98B /* AppCenterCrashes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterCrashes.framework; path = "AppCenter-SDK-Apple/iOS/AppCenterCrashes.framework"; sourceTree = "<group>"; };
 		D8BC8624D994E4F5515214D0859EBF68 /* Pods-CodemagicDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CodemagicDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		EC319648B3E5CA5F01292E9000751FDD /* Pods-CodemagicDemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CodemagicDemoTests.modulemap"; sourceTree = "<group>"; };
 		F76EA5B07D6D2B90AAA571E44EC1E045 /* Pods-CodemagicDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CodemagicDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0D33F6C680547B0E16D03E1F667B695C /* Frameworks */ = {
+		7A85516AD6D11F52B9E2E25E9211C2DD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6FFC9A8A0A012D7773BFEB35BB9901B /* Foundation.framework in Frameworks */,
+				C7E179DDA2916068E402C40219D3623B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1D604FD1D807D52513338975856B3BAE /* Frameworks */ = {
+		BDD8C219EE817EB9878BEB8F7C212062 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D26EC32FB2E8E140109503E560DF988 /* Foundation.framework in Frameworks */,
+				E2E2A7514419C5B631959A6FA5A11E3A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +118,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		126FFB397A9CB69EB94B45933BD8F0CE /* AppCenter */ = {
+			isa = PBXGroup;
+			children = (
+				4E719473D1F0C677F684CD950C300442 /* Analytics */,
+				78237BF1D9A1E14483E67C231EA24492 /* Core */,
+				C8A998CC47F12DC073FCF1059B8647DE /* Crashes */,
+				74E1E2013DA1AE0DE4601FBBD8CE0FFA /* Support Files */,
+			);
+			name = AppCenter;
+			path = AppCenter;
+			sourceTree = "<group>";
+		};
 		3DE763C603F24D6570316254EA164034 /* Pods-CodemagicDemo */ = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +144,22 @@
 			);
 			name = "Pods-CodemagicDemo";
 			path = "Target Support Files/Pods-CodemagicDemo";
+			sourceTree = "<group>";
+		};
+		3EB831948BAC463725CBC5E64061B6AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC7CD1C412745CB23A2ED0C2A6D486EF /* AppCenterAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E719473D1F0C677F684CD950C300442 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				3EB831948BAC463725CBC5E64061B6AC /* Frameworks */,
+			);
+			name = Analytics;
 			sourceTree = "<group>";
 		};
 		63D25E45FA00019B6286D71F7D433AF6 /* Targets Support Files */ = {
@@ -130,6 +188,39 @@
 			path = "Target Support Files/Pods-CodemagicDemoTests";
 			sourceTree = "<group>";
 		};
+		74E1E2013DA1AE0DE4601FBBD8CE0FFA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE146D4DBF4FCFD24A5C97DDB506616D /* AppCenter.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AppCenter";
+			sourceTree = "<group>";
+		};
+		78237BF1D9A1E14483E67C231EA24492 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B8D12DB16B5F3A3C65C56744F91F693C /* Frameworks */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		847EBDDE94B66B5A82F61EB451C88447 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				126FFB397A9CB69EB94B45933BD8F0CE /* AppCenter */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8E148A02952634D9C45857534695CF4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBF60A12C502CCD6CAA82C5108C7C98B /* AppCenterCrashes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A2F5A06F981FECECB23E942E3A25D5A1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,6 +247,14 @@
 			path = "Target Support Files/Pods-CodemagicDemo-CodemagicDemoUITests";
 			sourceTree = "<group>";
 		};
+		B8D12DB16B5F3A3C65C56744F91F693C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FEE3158F605D495B08188F7525FD262 /* AppCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,11 +263,20 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		C8A998CC47F12DC073FCF1059B8647DE /* Crashes */ = {
+			isa = PBXGroup;
+			children = (
+				8E148A02952634D9C45857534695CF4B /* Frameworks */,
+			);
+			name = Crashes;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				847EBDDE94B66B5A82F61EB451C88447 /* Pods */,
 				A2F5A06F981FECECB23E942E3A25D5A1 /* Products */,
 				63D25E45FA00019B6286D71F7D433AF6 /* Targets Support Files */,
 			);
@@ -193,19 +301,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		66EE7A884D5AB22C1320FD11DC035BD9 /* Headers */ = {
+		588654FD277F853B805082B1ABFD1FC7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E42407A8A9A0661DC46E160F4B75EE9C /* Pods-CodemagicDemo-CodemagicDemoUITests-umbrella.h in Headers */,
+				DC2ECE47B4CA418E050D22BB2A164D71 /* Pods-CodemagicDemo-CodemagicDemoUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		703AE16F23BFCA61C8BF22F934181BDE /* Headers */ = {
+		85BDA5C3A0DFA23976BA614664D6C5E8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9167E04BD99FA7A413B61EDB79BE3F52 /* Pods-CodemagicDemo-umbrella.h in Headers */,
+				A8367037E3A89B4577A37856BB19FB6B /* Pods-CodemagicDemo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,16 +322,17 @@
 /* Begin PBXNativeTarget section */
 		5BFBF969E3D6B95041B0E1DEFD609524 /* Pods-CodemagicDemo-CodemagicDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1F6332A670B357970D870B90E137EE94 /* Build configuration list for PBXNativeTarget "Pods-CodemagicDemo-CodemagicDemoUITests" */;
+			buildConfigurationList = E0DE8B04CFE0D5107D1F8BDE6B144EF2 /* Build configuration list for PBXNativeTarget "Pods-CodemagicDemo-CodemagicDemoUITests" */;
 			buildPhases = (
-				66EE7A884D5AB22C1320FD11DC035BD9 /* Headers */,
-				05C71A7567CADA4740E2F72B53D4BCF1 /* Sources */,
-				0D33F6C680547B0E16D03E1F667B695C /* Frameworks */,
-				C2B77CEF4CF9E94D0C557032186F99AA /* Resources */,
+				588654FD277F853B805082B1ABFD1FC7 /* Headers */,
+				E449B9E92632912E6171FD331CFBD076 /* Sources */,
+				7A85516AD6D11F52B9E2E25E9211C2DD /* Frameworks */,
+				291C7662AAEE4A6E26718D73E23E3389 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				4390F4538314F88AA112576C444937BE /* PBXTargetDependency */,
 			);
 			name = "Pods-CodemagicDemo-CodemagicDemoUITests";
 			productName = "Pods-CodemagicDemo-CodemagicDemoUITests";
@@ -232,16 +341,17 @@
 		};
 		6FA7F7200BAC8527D217E05C60DEA394 /* Pods-CodemagicDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 589D5A88D1FC992CB500F72B357DA690 /* Build configuration list for PBXNativeTarget "Pods-CodemagicDemo" */;
+			buildConfigurationList = 7903807168A8641289C0D90D7D12EDA2 /* Build configuration list for PBXNativeTarget "Pods-CodemagicDemo" */;
 			buildPhases = (
-				703AE16F23BFCA61C8BF22F934181BDE /* Headers */,
-				099E5609848FE5A96A6FADD284C4CBF3 /* Sources */,
-				1D604FD1D807D52513338975856B3BAE /* Frameworks */,
-				DB87E4BF6CC78AFC533E0F157D5143DE /* Resources */,
+				85BDA5C3A0DFA23976BA614664D6C5E8 /* Headers */,
+				6073262AC6AA147AA401C2AF75DC514C /* Sources */,
+				BDD8C219EE817EB9878BEB8F7C212062 /* Frameworks */,
+				2797C1CB9FF893D3AE7E6A6E239803C1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8363322C2C3D0796DEFCCE25D8C7195A /* PBXTargetDependency */,
 			);
 			name = "Pods-CodemagicDemo";
 			productName = "Pods-CodemagicDemo";
@@ -289,6 +399,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				A3282A5B2437E609EEB85861D7ECE717 /* AppCenter */,
 				6FA7F7200BAC8527D217E05C60DEA394 /* Pods-CodemagicDemo */,
 				5BFBF969E3D6B95041B0E1DEFD609524 /* Pods-CodemagicDemo-CodemagicDemoUITests */,
 				DF073DFD768B1CBF43BBBBC6371821E6 /* Pods-CodemagicDemoTests */,
@@ -297,21 +408,21 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2797C1CB9FF893D3AE7E6A6E239803C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		291C7662AAEE4A6E26718D73E23E3389 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A65C7E759901FFF9473E7A1A94D18699 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C2B77CEF4CF9E94D0C557032186F99AA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DB87E4BF6CC78AFC533E0F157D5143DE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -321,19 +432,11 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		05C71A7567CADA4740E2F72B53D4BCF1 /* Sources */ = {
+		6073262AC6AA147AA401C2AF75DC514C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C233C4B1FE05D40A6874C7623BA03EC /* Pods-CodemagicDemo-CodemagicDemoUITests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		099E5609848FE5A96A6FADD284C4CBF3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FBD00D11C820F022F2972EA1DD123890 /* Pods-CodemagicDemo-dummy.m in Sources */,
+				FE3614A685760743211F30354A7C1000 /* Pods-CodemagicDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,9 +448,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E449B9E92632912E6171FD331CFBD076 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC568DA404190FBE804F88F5ACD01DBC /* Pods-CodemagicDemo-CodemagicDemoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		4390F4538314F88AA112576C444937BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AppCenter;
+			target = A3282A5B2437E609EEB85861D7ECE717 /* AppCenter */;
+			targetProxy = E6BE651992F125C351FE35AF791BF9CF /* PBXContainerItemProxy */;
+		};
+		8363322C2C3D0796DEFCCE25D8C7195A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AppCenter;
+			target = A3282A5B2437E609EEB85861D7ECE717 /* AppCenter */;
+			targetProxy = 7E531BF33AF5730FC355AF7C7CF570AD /* PBXContainerItemProxy */;
+		};
 		F84BC1F41EEA2C875592418E2822190F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-CodemagicDemo";
@@ -357,9 +480,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1A4B58830F6CA458EAECF8C2F9944B07 /* Release */ = {
+		12C0B6755AC57097EADBAFD30DCCE435 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 592485CF83000F0B1578FC921C9C99D9 /* Pods-CodemagicDemo-CodemagicDemoUITests.release.xcconfig */;
+			baseConfigurationReference = 32B436069B40919425907C595B1C925D /* Pods-CodemagicDemo.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -372,7 +495,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CodemagicDemo-CodemagicDemoUITests/Pods-CodemagicDemo-CodemagicDemoUITests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-CodemagicDemo/Pods-CodemagicDemo-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -381,7 +504,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CodemagicDemo-CodemagicDemoUITests/Pods-CodemagicDemo-CodemagicDemoUITests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-CodemagicDemo/Pods-CodemagicDemo.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -390,11 +513,10 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		5F105DE130E7C58EB2BB2D3D56345DEF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -460,43 +582,38 @@
 			};
 			name = Debug;
 		};
-		A68E8AF830E2CCA951DAEE04FA749393 /* Debug */ = {
+		6F4D25CB9F599D775DBC451590213731 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32B436069B40919425907C595B1C925D /* Pods-CodemagicDemo.debug.xcconfig */;
+			baseConfigurationReference = AE146D4DBF4FCFD24A5C97DDB506616D /* AppCenter.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CodemagicDemo/Pods-CodemagicDemo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CodemagicDemo/Pods-CodemagicDemo.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		8A791558A6CAD52F6A29BE7CDFC70C4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE146D4DBF4FCFD24A5C97DDB506616D /* AppCenter.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
 		};
 		AB9B38139C5627437C662CCBEFC5D805 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -596,44 +713,6 @@
 			};
 			name = Debug;
 		};
-		C95771A50F2B38356E6D5A844D684859 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E9D46CDCF213521C064C6B2B372D3B3 /* Pods-CodemagicDemo-CodemagicDemoUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CodemagicDemo-CodemagicDemoUITests/Pods-CodemagicDemo-CodemagicDemoUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CodemagicDemo-CodemagicDemoUITests/Pods-CodemagicDemo-CodemagicDemoUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		CDAEAB47DE99CA60B436A9D163B2E4C3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D8BC8624D994E4F5515214D0859EBF68 /* Pods-CodemagicDemoTests.release.xcconfig */;
@@ -673,7 +752,45 @@
 			};
 			name = Release;
 		};
-		F9D6CA5CF6D63D5D380994CA67884AE8 /* Release */ = {
+		E8AA0D2C28463A8F36DA1A140B165909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E9D46CDCF213521C064C6B2B372D3B3 /* Pods-CodemagicDemo-CodemagicDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CodemagicDemo-CodemagicDemoUITests/Pods-CodemagicDemo-CodemagicDemoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CodemagicDemo-CodemagicDemoUITests/Pods-CodemagicDemo-CodemagicDemoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EC313BD730EC21AE9A26C28943822A1A /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 18329D36F8C5F1B22DAADE1964F49104 /* Pods-CodemagicDemo.release.xcconfig */;
 			buildSettings = {
@@ -712,18 +829,48 @@
 			};
 			name = Release;
 		};
+		FACF2DDDF8D28D3AA491BE6E53FDB4D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 592485CF83000F0B1578FC921C9C99D9 /* Pods-CodemagicDemo-CodemagicDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CodemagicDemo-CodemagicDemoUITests/Pods-CodemagicDemo-CodemagicDemoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CodemagicDemo-CodemagicDemoUITests/Pods-CodemagicDemo-CodemagicDemoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1F6332A670B357970D870B90E137EE94 /* Build configuration list for PBXNativeTarget "Pods-CodemagicDemo-CodemagicDemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C95771A50F2B38356E6D5A844D684859 /* Debug */,
-				1A4B58830F6CA458EAECF8C2F9944B07 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -733,11 +880,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		589D5A88D1FC992CB500F72B357DA690 /* Build configuration list for PBXNativeTarget "Pods-CodemagicDemo" */ = {
+		7903807168A8641289C0D90D7D12EDA2 /* Build configuration list for PBXNativeTarget "Pods-CodemagicDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A68E8AF830E2CCA951DAEE04FA749393 /* Debug */,
-				F9D6CA5CF6D63D5D380994CA67884AE8 /* Release */,
+				12C0B6755AC57097EADBAFD30DCCE435 /* Debug */,
+				EC313BD730EC21AE9A26C28943822A1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0944D0DEFF9CDF0CBE6D4A41B195020 /* Build configuration list for PBXAggregateTarget "AppCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F4D25CB9F599D775DBC451590213731 /* Debug */,
+				8A791558A6CAD52F6A29BE7CDFC70C4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0DE8B04CFE0D5107D1F8BDE6B144EF2 /* Build configuration list for PBXNativeTarget "Pods-CodemagicDemo-CodemagicDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8AA0D2C28463A8F36DA1A140B165909 /* Debug */,
+				FACF2DDDF8D28D3AA491BE6E53FDB4D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

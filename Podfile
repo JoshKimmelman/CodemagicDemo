@@ -7,6 +7,8 @@ target 'CodemagicDemo' do
 
   # Pods for CodemagicDemo
 
+  pod 'AppCenter'
+
   target 'CodemagicDemoTests' do
     inherit! :search_paths
     # Pods for testing
