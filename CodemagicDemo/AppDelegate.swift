@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
           Crashes.self
         ])
         
-        print("AppCenter test commit")
+        print("AppCenter VS Codemagic test commit")
         
         return true
     }
