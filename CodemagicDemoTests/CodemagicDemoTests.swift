@@ -30,6 +30,8 @@ class CodemagicDemoTests: XCTestCase {
         }
     }
     
+    // another simple commit
+    
 //    func testFail() {
 //        XCTAssert(false, "I broke this on purpose.")
 //    }
