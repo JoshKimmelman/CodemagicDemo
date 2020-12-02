@@ -30,8 +30,8 @@ class CodemagicDemoTests: XCTestCase {
         }
     }
     
-    func testFail() {
-        XCTAssert(false, "I broke this on purpose.")
-    }
+//    func testFail() {
+//        XCTAssert(false, "I broke this on purpose.")
+//    }
 
 }
