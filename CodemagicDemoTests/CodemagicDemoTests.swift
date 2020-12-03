@@ -33,6 +33,8 @@ class CodemagicDemoTests: XCTestCase {
         }
     }
     
+    
+    
     // another simple commit
     
 //    func testFail() {
