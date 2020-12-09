@@ -55,11 +55,6 @@
                BlueprintName = "CodemagicDemoUITests"
                ReferencedContainer = "container:CodemagicDemo.xcodeproj">
             </BuildableReference>
-            <SkippedTests>
-               <Test
-                  Identifier = "CodemagicDemoUITests/testExample()">
-               </Test>
-            </SkippedTests>
          </TestableReference>
       </Testables>
    </TestAction>
