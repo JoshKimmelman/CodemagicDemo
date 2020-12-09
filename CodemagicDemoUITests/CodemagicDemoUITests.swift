@@ -24,11 +24,11 @@ class CodemagicDemoUITests: XCTestCase {
 
     func testExample() throws {
         // UI tests must launch the application that they test.
+        let startTime = CFAbsoluteTimeGetCurrent()
         let app = XCUIApplication()
         app.launch()
-        XCTAssert(false)
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        let endTime = CFAbsoluteTimeGetCurrent() - startTime
+        XCTAssert(endTime < 10.0, "Startup time too long!")
     }
 
     func testLaunchPerformance() throws {
