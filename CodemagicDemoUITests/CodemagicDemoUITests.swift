@@ -28,7 +28,7 @@ class CodemagicDemoUITests: XCTestCase {
         let app = XCUIApplication()
         app.launch()
         let endTime = CFAbsoluteTimeGetCurrent() - startTime
-        XCTAssert(endTime < 10.0, "Startup time too long!")
+        XCTAssert(endTime < 0.0, "Startup time too long!")
     }
 
     func testLaunchPerformance() throws {
