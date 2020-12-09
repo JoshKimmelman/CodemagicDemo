@@ -37,6 +37,14 @@
                BlueprintName = "CodemagicDemoTests"
                ReferencedContainer = "container:CodemagicDemo.xcodeproj">
             </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "CodemagicDemoTests/testExample()">
+               </Test>
+               <Test
+                  Identifier = "CodemagicDemoTests/testPerformanceExample()">
+               </Test>
+            </SkippedTests>
          </TestableReference>
          <TestableReference
             skipped = "NO">
